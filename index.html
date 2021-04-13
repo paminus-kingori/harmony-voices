@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Harmony voices group | nyeri central ambassador | sda">
     <title>Harmony Voices Group</title>
+    <link rel="stylesheet" href="aos.css">
     <link rel="stylesheet" href="swiper.min.css">
     <link rel="stylesheet" href="style.css">
 
@@ -143,7 +144,7 @@
         <section class="event" id="event">
             <h2 class="our">Our Events</h2>
             <aside class="event-card">
-                <img src="images/purpe-miv.jpg" alt="mic" class="mic-img">
+                <img src="images/purpe-miv.jpg" alt="mic" class="mic-img"  data-aos="flip-up" data-aos-delay="100">
                 <article class="text-card">
                     <p>
                         We shall be dedicating our volume two album on 17<sup>th</sup> April, 2021 at the Nyeri 
@@ -164,7 +165,7 @@
         </h2>
         <section class="project">
             <!-- vol 1  -->
-            <aside class="project-card">
+            <aside class="project-card"  data-aos="fade-up">
                 <img src="images/mic-rec.jpg" alt="mic rec" class="pro-img">
                 <p>
                     We've recorded and launched our first album.
@@ -176,7 +177,7 @@
             </aside>
 
              <!-- vol 2  -->
-             <aside class="project-card">
+             <aside class="project-card"  data-aos="fade-up">
                 <img src="images/grey-mic.jpg" alt="mic rec" class="pro-img">
                 <p>
                     We also recorded our second album. Dedicating it on 17<sup>th</sup> April, 2021.
@@ -192,8 +193,8 @@
             <h2 class="less">Lesson Blog</h2>
             <aside class="blogs">
                 <!-- lesson 1  -->
-                <article class="blog-card">
-                    <img src="images/open.jpg" alt="blog img" class="blog-img">
+                <article class="blog-card" >
+                    <img src="images/open.jpg" alt="blog img" class="blog-img" data-aos="fade-right">
                     <article class="blog-text">
                         <p>
                             How does the Bible communicate with us?
@@ -209,7 +210,7 @@
 
                  <!-- lesson 2  -->
                  <article class="blog-card">
-                    <img src="images/bible.jpg" alt="blog img" class="blog-img">
+                    <img src="images/bible.jpg" alt="blog img" class="blog-img" data-aos="fade-right" data-aos-delay="100">
                     <article class="blog-text">
                         <p>
                             Understanding the Bible.
@@ -225,8 +226,8 @@
 
                  <!-- lesson 3  -->
                  <article class="blog-card">
-                    <img src="images/new-t.jpg" alt="blog img" class="blog-img">
-                    <article class="blog-text">
+                    <img src="images/new-t.jpg" alt="blog img" class="blog-img" data-aos="fade-right" data-aos-delay="200">
+                    <article class="blog-text" >
                         <p>
                             Exploring the New Testament.
                         </p>
@@ -328,10 +329,11 @@
             </p>
         </div>
     </footer>
-
+    <script src="aos.js"></script>
     <script src="swiper.min.js"></script>
 
     <script>
+     AOS.init();
     const holder = document.querySelector("#holder");
     const ham = document.getElementById("hamburger");
     const close = document.getElementById("close");
