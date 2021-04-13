@@ -52,6 +52,7 @@ nav{
     cursor: pointer;
     color: white;
     place-items: center;
+    font-size: 18px;
 }
 .icon-close{
     display: none;
@@ -141,7 +142,7 @@ a{
     z-index: -1;
     background-attachment: fixed;
     background-position-y: 30%;
-    clip-path: circle(158vh at 48% -67vh);
+    clip-path: circle(155vh at 48% -69vh);
 }
 .top-flex{
     display: flex;
