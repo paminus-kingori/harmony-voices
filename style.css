@@ -141,7 +141,7 @@ a{
     z-index: -1;
     background-attachment: fixed;
     background-position-y: 30%;
-    clip-path: circle(144vh at 50% -56vh);
+    clip-path: circle(158vh at 48% -67vh);
 }
 .top-flex{
     display: flex;
@@ -180,6 +180,7 @@ a{
     padding: 4px 13px;
     border-radius: 3px;
     font-size: inherit;
+    cursor: pointer;
 }
 /* .more::before{
     content: "";
@@ -255,6 +256,7 @@ a{
     padding: 10px 25px;
     color: white;
     border-radius: 3px;
+    cursor: pointer;
     font-size: inherit;
 }
 
@@ -434,6 +436,9 @@ footer{
 .cont-icons img{
     width: 30px;
     height: 30px;
+}
+.cont-icons img:hover{
+    transform: translateY(-10px);
 }
 .copy{
     position: absolute;
