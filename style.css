@@ -177,7 +177,7 @@ a{
 .more{
     border: 2px solid var(--redish);
     outline: none;
-    /* background-color: rgb(218 14 183); */
+    background-color: #fff;
     padding: 4px 13px;
     border-radius: 3px;
     font-size: inherit;
