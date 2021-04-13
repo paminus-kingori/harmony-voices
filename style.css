@@ -175,7 +175,7 @@ a{
     padding: 1.7rem 0;
 }
 .more{
-    border: 2px solid var(--redish);
+    border: 2px solid #D22215;
     outline: none;
     background-color: #fff;
     padding: 4px 13px;
@@ -299,7 +299,7 @@ h2{
     padding: 8px 10px;
     outline: none;
     /* border-radius: 1px; */
-    background: var(--blue);
+    background: #063F87;
     color: white;
     font-size: inherit;
     cursor: pointer;
@@ -457,6 +457,7 @@ footer{
     }
     .top::before{
         background-position-x: center;
+        background-position-y: top;
     }
     .text-card{
         transform: translateY(-60px);
