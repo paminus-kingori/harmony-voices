@@ -2,8 +2,8 @@
 
 
 :root{
-    --redPink: linear-gradient(92.71deg, #FF00A8 0%, #D8032A 100%);
-    --bluePurple:  linear-gradient(99.04deg, #1937D4 2.56%, #BC0995 92.16%);
+    --redPink: linear-gradient(to right, #FF00A8 0%, #D8032A 100%);
+    --bluePurple:  linear-gradient(to right, #1937D4 2.56%, #BC0995 92.16%);
     --blue: #063F87;
     --redish: #D22215;
     --searchShaodw: -13px 13px 26px rgba(181, 181, 181, 0.2), 13px -13px 26px rgba(181, 181, 181, 0.2), -13px -13px 26px rgba(255, 255, 255, 0.9), 13px 13px 33px rgba(181, 181, 181, 0.9), inset 1px 1px 2px rgba(255, 255, 255, 0.3), inset -1px -1px 2px rgba(181, 181, 181, 0.5);
