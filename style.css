@@ -391,9 +391,19 @@ footer{
   background-size: cover;
   background-position: bottom;
   color: white;
+  padding-top: 4rem;
 }
 .left{
-    margin-top: 15px;
+    margin: 15px 0;
+    max-width: 430px;
+    
+}
+.new-mission{
+    max-width: 400px;
+}
+.left p, .new-mission p{
+    line-height: 1.7;
+    margin: 13px 0;
 }
 .left a{
     color: white;
@@ -428,7 +438,7 @@ footer{
     width: 100%;
 }
 .cont-icons{
-    margin-top: 1rem;
+    margin: 1rem 0;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -451,7 +461,14 @@ footer{
 .copy p{
     text-align: center;
 }
-
+.mission mark{
+    background: transparent;
+    font-size: 19px;
+    font-weight: 500;
+}
+.channel-link{
+    margin-top: 7px;
+}
 
 
 
