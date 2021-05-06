@@ -10,6 +10,8 @@
     --searchShaodw: -13px 13px 26px rgba(181, 181, 181, 0.2), 13px -13px 26px rgba(181, 181, 181, 0.2), -13px -13px 26px rgba(255, 255, 255, 0.9), 13px 13px 33px rgba(181, 181, 181, 0.9), inset 1px 1px 2px rgba(255, 255, 255, 0.3), inset -1px -1px 2px rgba(181, 181, 181, 0.5);
 }
 
+
+
 *{
 margin: 0;
 padding: 0;
@@ -17,6 +19,7 @@ font-family: 'Dosis',sans-serif;
 font-size: 16px;
 box-sizing: border-box;
 scroll-behavior: smooth;
+scroll-margin-top: 3rem;
 }
 body{
     overflow-x: hidden;
@@ -231,6 +234,7 @@ a{
 
 /* event  */
 .event{
+    padding-bottom: 1rem;
     background: url("images/bg.jpg") center no-repeat;
     background-size: cover;
     padding-top: 2.6rem;
@@ -425,10 +429,13 @@ footer{
   padding-top: 4.5rem;
 }
 .left{
-    margin: 15px 0;
-    max-width: 430px;
-    display: grid;
-    justify-items: center;
+    margin: 0 10px;
+    flex-grow: 0.5;
+    max-width: 836px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
 }
 .new-mission{
     max-width: 430px;
@@ -436,6 +443,7 @@ footer{
 .left p, .new-mission p{
     line-height: 1.7;
     margin: 13px 0;
+    max-width: 430px;
 }
 .left a{
     color: white;
@@ -447,7 +455,7 @@ footer{
     margin-right: 5px;
 }
 .middle, .right{
-    margin: 15px 0;
+    margin: 15px 8px;
     display: grid;
     justify-items: center;
     align-content: space-around;
@@ -559,7 +567,46 @@ footer{
 }
 
 /* responsive  */
+
+
+/* for large screens  */
+@media screen and (min-width:1440px){
+    *{
+        font-size: 18px;
+    }
+    .top-text {
+        max-width: 690px;
+    }
+    .youtube{
+        width: 380px;
+        height: 280px;
+    }
+    .mic-img{
+        width: 618px;
+        height: 500px;
+    }
+    .text-card p{
+        line-height: 2;
+        margin-bottom: 60px;
+    }
+    .text-card{
+        max-width: 500px;
+
+    }
+    .project{
+        min-height: 60vh;
+    }
+    .project-card{
+        height: 350px;
+        width: 310px;
+    }
+}
+
+
 @media screen and (max-width:500px){
+    *{
+        font-size: 16px;
+    }
     .event-card{
         flex-grow: 0;
     }
@@ -602,3 +649,5 @@ footer{
         display: none;
     }
 }
+
+
