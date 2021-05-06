@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="aos.css">
     <link rel="stylesheet" href="swiper.min.css">
     <link rel="stylesheet" href="style.css">
+    <script src="swiper.min.js"></script>
 
     <style>
         .swiper-container {
@@ -181,7 +182,7 @@
                 </p>
 
                 <!-- whatsapp  -->
-                <a href="https://wa.me/254705309169">
+                <a href="https://wa.me/254705309169?text=Hi%20I'm%20interested%20in%20buying%20your%20Vol%201%20CD" target="_blank">
                 <button class="get">
                   <img src="icons/iconmonstr-whatsapp-1.svg" alt="whatsapp" class="icon">  Order Vol 1 CD
                 </button>
@@ -195,7 +196,7 @@
                     We also recorded our second album. It was dedicated on 17<sup>th</sup> April, 2021.
                 </p>
 
-                <a href="https://wa.me/254705309169" target="_blank">
+                <a href="https://wa.me/254705309169?text=Hi%20I'm%20interested%20in%20buying%20your%20Vol%202%20CD" target="_blank">
                 <button class="get">
                     <img src="icons/iconmonstr-whatsapp-1.svg" alt="whatsapp" class="icon">  Order  Vol 2 CD
                 </button>
@@ -205,8 +206,36 @@
 
         <section class="blog-sect">
             <h2 class="less">Cornerstone Lesson Blogs</h2>
-            <aside class="blogs">
-                 <!-- lesson 4  -->
+
+                
+              <!-- Swiper -->
+       <div class="swiper-container swiper-container-2">
+        <div class="swiper-wrapper swiper-wrapper-2">
+            <!-- <aside class="blogs"> -->
+                 <!-- lesson 5  -->
+                 <div class="swiper-slide swiper-slide-2">
+                 <article class="blog-card" >
+                    <img src="images/follower8th" alt="blog img" class="blog-img" data-aos="fade-right">
+                    <article class="blog-text">
+                        <p>
+                            I am a follower.
+                        </p>
+
+                            <span class="date">
+                            8<sup>th</sup> May, 2021
+                        </span>
+
+                        <a href="https://shrtco.de/sZJBdc">
+                        <button class="get">
+                            Read More
+                        </button>
+                        </a>
+                    </article>
+                </article>
+                </div>
+
+                <div class="swiper-slide swiper-slide-2">
+                     <!-- lesson 4  -->
                  <article class="blog-card" >
                     <img src="images/poorGirl.jpg" alt="blog img" class="blog-img" data-aos="fade-right">
                     <article class="blog-text">
@@ -223,8 +252,11 @@
                         </a>
                     </article>
                 </article>
+                </div>
+                
 
-                <!-- lesson 3  -->
+                <div class="swiper-slide swiper-slide-2">
+                    <!-- lesson 3  -->
                 <article class="blog-card" >
                     <img src="images/lesson3" alt="blog img" class="blog-img" data-aos="fade-right">
                     <article class="blog-text">
@@ -243,7 +275,10 @@
                     </article>
                 </article>
 
-                 <!-- lesson 2  -->
+                </div>
+                
+                <div class="swiper-slide swiper-slide-2">
+                    <!-- lesson 2  -->
                  <article class="blog-card">
                     <img src="images/lesson2" alt="blog img" class="blog-img" data-aos="fade-right" data-aos-delay="100">
                     <article class="blog-text">
@@ -260,8 +295,10 @@
                     </a>
                     </article>
                 </article>
-
-                 <!-- lesson 1  -->
+                </div>
+                 
+                <div class="swiper-slide swiper-slide-2">
+                     <!-- lesson 1  -->
                  <article class="blog-card">
                     <img src="images/lesson1" alt="blog img" class="blog-img" data-aos="fade-right" data-aos-delay="200">
                     <article class="blog-text" >
@@ -278,7 +315,28 @@
                         </a>
                     </article>
                 </article>
-            </aside>
+                </div>
+            </div>
+                
+            <!-- </aside> -->
+
+             <!-- Add Pagination -->
+             <div class="swiper-pagination swiper-pagination-2"></div>
+        </div>
+
+            <!-- Initialize Swiper -->
+            <script>
+                let swiper = new Swiper('.swiper-container-2', {
+                slidesPerView: 'auto',
+                spaceBetween: 20,
+                centeredSlides: true,
+                freeMode: false,
+                pagination: {
+                    el: '.swiper-pagination-2',
+                    clickable: true,
+                },
+                });
+            </script>
 
             <a href="https://www.cornerstoneconnections.net">
             <button class="rsvp blog-btn">
@@ -404,7 +462,6 @@
         </div>
     </footer>
     <script src="aos.js"></script>
-    <script src="swiper.min.js"></script>
 
     <script>
      AOS.init();
