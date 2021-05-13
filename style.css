@@ -37,11 +37,12 @@ nav{
     display: flex;
     /* justify-content: space-around; */
     /* width: 100%; */
-    padding: 10px 5px;
+    padding: 15px 5px;
     align-items: center;
     position: fixed;
     width: 100%;
-    background: #000000b8;
+    /* background: #000000b8; */
+    background: #063f87;
     z-index: 10;
     top: 0;
 }
@@ -76,17 +77,17 @@ nav{
 .drop{
     display: none;
     position: absolute;
-    background: #000000d4;
-    border-left: 2px solid #44dd88;
-    border-right: 2px solid #4d8f;
-    top: 42px;
+    background: #000000e0;
+    border-left: 2px solid #2196f3;
+    border-right: 2px solid #2196f3;
+    top: 51px;
     /* text-align: center; */
     justify-items: center;
-    width: 160px;
-    padding: 10px;
+    width: max-content;
+    padding: 15px;
 }
 .drop a{
-    margin-bottom: 22px;
+    margin-bottom: 30px;
 }
 .drop a:last-child{
     margin-bottom: 0;
@@ -107,9 +108,14 @@ nav span{
     display: flex;
     place-items: center;
     color: #fff;
+    padding: 4px 15px;
+    border-radius: 30px;
+
 }
 nav a span:hover{
     color: #2196f3;
+    background-color: white;
+    /* padding: 4px 12px; */
 }
 nav a span:hover .icon{
     filter: invert(52%) sepia(18%) saturate(2505%) hue-rotate(167deg) brightness(98%) contrast(95%);
@@ -295,7 +301,9 @@ a{
 .project{
     display: flex;
     align-items: center;
+    width: 100%;
     justify-content: space-evenly;
+    
     flex-wrap: wrap;
     margin-bottom: 2rem;
 }
@@ -497,6 +505,7 @@ footer{
 .cont-icons img{
     width: 30px;
     height: 30px;
+    margin: 0 15px;
 }
 .cont-icons img:hover{
     transform: translateY(-10px);
@@ -636,7 +645,7 @@ footer{
 }
 
 
-@media screen and (max-width:500px){
+@media screen and (max-width:550px){
     *{
         font-size: 16px;
     }
@@ -664,6 +673,9 @@ footer{
         line-height: 1.4;
     margin-bottom: 14px;
     }
+    .project{
+        justify-content: center;
+    }
     .mic-img{
         width: 300px;
     height: 240px;
@@ -680,6 +692,9 @@ footer{
     }
     .arrow{
         display: none;
+    }
+    footer{
+        justify-content: center;
     }
 }
 
