@@ -50,7 +50,7 @@
                 <img src="icons/icon-hamburger.svg" alt="icon" class="icon-ham icon" id="hamburger">
                 <img src="icons/icon-close.svg" alt="icon" class="icon-close icon" id="close">
                 Menu
-                <div class="drop"> 
+                <div class="drop" id="drop"> 
                     <a href="#event">
                         <span>
                             <img src="icons/iconmonstr-calendar-6.svg" alt="calendar" class="icon"> Events
@@ -506,16 +506,16 @@
 
     <script>
      AOS.init();
-    const holder = document.querySelector("#holder");
+    const holder = document.getElementById("holder");
     const ham = document.getElementById("hamburger");
     const close = document.getElementById("close");
-    const drop = document.querySelector(".drop");
+    const drop = document.getElementById("drop");
 
     holder.addEventListener('click',function(){
         ham.classList.toggle("remove");
         close.classList.toggle("show");
         drop.classList.toggle("show");
-        alert("hi");
+       
     });
 
         var galleryThumbs = new Swiper('.gallery-thumbs', {
