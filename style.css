@@ -659,9 +659,9 @@ footer{
         padding: 17.6rem 1rem 3rem 1rem;
     }
     .bg-top{
-        background-position: center;
+        /* background-position: center; */
         background-position-x: center;
-        background-position-y: center;
+        background-position-y: top;
         top: -25%;
         max-height: 500px;
         /* height: 65%; */
