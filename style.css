@@ -388,6 +388,9 @@ h2{
     margin-bottom: 1rem;
     flex-wrap: wrap;
 }
+.blog-description{
+    margin: 4px;
+}
 @media screen and (max-width:600px){
 .blog-sect{
     background: url("images/woman-writing-small.jpg") no-repeat;
@@ -429,7 +432,7 @@ h2{
     justify-content: space-between;
 }
 .blog-text p{
-    margin: 15px 0;
+    margin: 10px 0;
     text-align: center;
     width: 100%;
 }
