@@ -19,7 +19,7 @@ font-family: 'Dosis',sans-serif;
 font-size: 16px;
 box-sizing: border-box;
 scroll-behavior: smooth;
-scroll-margin-top: 3rem;
+scroll-margin-top: 3.5rem;
 }
 body{
     overflow-x: hidden;
@@ -332,7 +332,7 @@ a{
     align-items: center;
     width: 100%;
     justify-content: space-evenly;
-    
+    min-height: 70vh;
     flex-wrap: wrap;
     margin-bottom: 2rem;
 }
@@ -668,7 +668,7 @@ footer{
 
     }
     .project{
-        min-height: 60vh;
+        min-height: 90vh;
     }
     .project-card{
         height: 350px;
