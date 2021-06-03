@@ -290,6 +290,7 @@ a{
     text-align: center;
   
 }
+
 .event-card{
     flex-grow: 1;
     display: flex;
@@ -298,12 +299,17 @@ a{
     justify-self: center;
     text-align: center;
     flex-wrap: wrap;
+    margin: 1rem 0 2rem 0;
 }
 .mic-img{
     width: 450px;
     height: 360px;
     object-fit: cover;
     object-position: right;
+}
+.contain{
+    object-fit: fill;
+    object-position: center
 }
 .text-card{
     background-color: white;
@@ -324,6 +330,10 @@ a{
     border-radius: 3px;
     cursor: pointer;
     font-size: inherit;
+}
+.active{
+    background: #063f87;
+
 }
 
 /* project  */
