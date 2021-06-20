@@ -20,9 +20,11 @@ font-size: 16px;
 box-sizing: border-box;
 scroll-behavior: smooth;
 scroll-margin-top: 3.5rem;
+color: #424242;
 }
 body{
     overflow-x: hidden;
+    background: #f3f3f3;
 }
 h1{
     margin: 10px 0;
@@ -398,6 +400,37 @@ h2{
     margin-bottom: 1rem;
     flex-wrap: wrap;
 }
+.download{
+position: absolute;
+top: 10px;
+right: 10px;
+cursor: pointer;
+}
+summary{
+    display: grid;
+}
+/* summary marker{
+    display: none;
+} */
+.download-icon{
+    width: 24px;
+    height: 24px;
+}
+.down-p{
+    position: absolute;
+background: #000000de;
+width: max-content;
+z-index: 2;
+padding: 2px 4px;
+border-radius: 3px;
+right: 0;
+top: 70%;
+width: max-content! important;
+}
+.down-p a{
+    color: #f3f3f3! important;
+
+}
 .blog-description{
     margin: 4px;
 }
@@ -429,7 +462,7 @@ h2{
     justify-content: space-evenly;
 }
 .blog-text{
-    
+    position: relative;
     background-color: white;
     padding: 10px 5px;
     width: 260px;
@@ -441,9 +474,16 @@ h2{
     flex-wrap: wrap;
     justify-content: space-between;
 }
+.date{
+    font-size: small;
+color: #424242;
+}
+.date sup{
+    font-size: inherit;
+}
 .blog-text p{
-    margin: 10px 0;
-    text-align: center;
+    margin: 10px 30px 10px 10px;
+        text-align: center;
     width: 100%;
 }
 .blog-btn{
@@ -485,6 +525,9 @@ footer{
   background-position: bottom;
   color: white;
   padding-top: 4.5rem;
+}
+footer p, footer article{
+    color: white;
 }
 .left{
     margin: 0 10px;
