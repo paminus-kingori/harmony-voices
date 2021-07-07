@@ -499,10 +499,18 @@ padding: 2px 6px;
     padding: 0 20px;
     box-shadow: 2px 2px 4px 0px #00000078;
 }
+.quarter:hover{
+    background: #063f87;
+    color: white;
+    transition: 0.2s;
+}
 .quarter p{
 width: max-content;
 font-weight: 700;
 margin: auto;
+}
+.quarter:hover p{
+    color: white;
 }
 .date{
     font-size: small;
@@ -757,7 +765,7 @@ footer p, footer article{
 }
 
 
-@media screen and (max-width:635px){
+@media screen and (max-width:720px){
     *{
         font-size: 16px;
     }
