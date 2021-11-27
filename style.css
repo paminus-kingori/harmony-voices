@@ -101,9 +101,9 @@ nav{
 }
 
 @supports (display: grid) {
-    
+
         /* do anything for grid supporting browsers here. */
-    
+
     .show{
         display: -moz-grid;
         display: -ms-grid;
@@ -265,7 +265,7 @@ flex-direction: column;
     left: -2px;
     z-index: -1;
     background-color: white;
-    
+
 } */
 .arrow{
     z-index: -1;
@@ -298,7 +298,7 @@ flex-direction: column;
 .our{
     color: white;
     text-align: center;
-  
+
 }
 
 .event-card{
@@ -438,8 +438,8 @@ right: 0;
 top: 70%;
 width: max-content! important;
 padding: 2px 6px;
-  
-  
+
+
 }
 .down-p a{
     color: #f3f3f3! important;
@@ -455,7 +455,7 @@ padding: 2px 6px;
 }
 }
 .blog-sect{
-    padding: 1rem 0;
+    padding: 1rem 15px;
     text-align: center;
     background: linear-gradient(to left,#0003,#0003),url("images/woman-writing-large.jpg") no-repeat;
     background-size: cover;
@@ -501,7 +501,7 @@ padding: 2px 6px;
     margin: 0 20px 0 10px;
     height: max-content;
     align-self: center;
-    width: 250px;  
+    width: 250px;
     min-height: 65px;
     border-radius: 4px;
     padding: 0 20px;
@@ -521,8 +521,9 @@ margin: auto;
     color: white;
 }
 .date{
-    font-size: small;
+  font-size: 15px;
 color: #424242;
+font-weight: 600;
 }
 .date sup{
     font-size: inherit;
@@ -699,7 +700,7 @@ footer p, footer article{
     margin-bottom: 15px;
     max-width: 400px;
     height: auto;
-  
+
 }
 .story-img img{
     width: 100%;
@@ -721,7 +722,7 @@ footer p, footer article{
     font-size: 18px;
     /* background: #fff; */
     width: max-content;
-    
+
     /* Center slide text vertically */
     display: -webkit-box;
     display: -ms-flexbox;
@@ -827,5 +828,3 @@ footer p, footer article{
         justify-content: center;
     }
 }
-
-
