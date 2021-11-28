@@ -232,7 +232,7 @@
             <!-- lesson  -->
             <div class="swiper-slide swiper-slide-2">
                 <article class="blog-card" >
-                   <img src="images/lesson-images/real.jpeg" alt="blog img" class="blog-img" data-aos="fade-right">
+                   <img src="images/lesson-images/real.jpeg" loading="lazy" alt="blog img" class="blog-img" data-aos="fade-right">
                    <article class="blog-text">
                        <!-- link to download the lesson  -->
 
@@ -269,7 +269,7 @@
           <!-- lesson  -->
           <div class="swiper-slide swiper-slide-2">
               <article class="blog-card" >
-                 <img src="images/lesson-images/what.jpeg" alt="blog img" class="blog-img" data-aos="fade-right">
+                 <img src="images/lesson-images/what.jpeg" loading="lazy" alt="blog img" class="blog-img" data-aos="fade-right">
                  <article class="blog-text">
                      <!-- link to download the lesson  -->
 
@@ -306,7 +306,7 @@
             <!-- lesson  sep 4th-->
             <div class="swiper-slide swiper-slide-2 data-initial-slide='1'">
                 <article class="blog-card" >
-                   <img src="images/lesson-images/tommoro.jpeg" alt="blog img" class="blog-img" data-aos="fade-right">
+                   <img src="images/lesson-images/tommoro.jpeg" loading="lazy" alt="blog img" class="blog-img" data-aos="fade-right">
                    <article class="blog-text">
                        <!-- link to download the lesson  -->
 
@@ -345,7 +345,7 @@
                   <!-- lesson 9  -->
                   <div class="swiper-slide swiper-slide-2">
                     <article class="blog-card" >
-                       <img src="images/lesson-images/versus.jpeg" alt="blog img" class="blog-img" data-aos="fade-right">
+                       <img src="images/lesson-images/versus.jpeg" loading="lazy" alt="blog img" class="blog-img" data-aos="fade-right">
                        <article class="blog-text">
                            <!-- link to download the lesson  -->
 
@@ -380,7 +380,7 @@
                  <!-- lesson 8  -->
                  <div class="swiper-slide swiper-slide-2">
                     <article class="blog-card" >
-                       <img src="images/lesson-images/choice.jpeg" alt="blog img" class="blog-img" data-aos="fade-right">
+                       <img src="images/lesson-images/choice.jpeg" loading="lazy" alt="blog img" class="blog-img" data-aos="fade-right">
                        <article class="blog-text">
                            <!-- link to download the lesson  -->
 
@@ -415,7 +415,7 @@
                 <!-- lesson 7  -->
                 <div class="swiper-slide swiper-slide-2">
                     <article class="blog-card" >
-                       <img src="images/lesson-images/trials.jpeg" alt="blog img" class="blog-img" data-aos="fade-right">
+                       <img src="images/lesson-images/trials.jpeg" loading="lazy" alt="blog img" class="blog-img" data-aos="fade-right">
                        <article class="blog-text">
                            <!-- link to download the lesson  -->
 
@@ -450,7 +450,7 @@
                    <!-- lesson 6  -->
                 <div class="swiper-slide swiper-slide-2">
                     <article class="blog-card" >
-                       <img src="images/lesson-images/christwise.jpeg" alt="blog img" class="blog-img" data-aos="fade-right">
+                       <img src="images/lesson-images/christwise.jpeg" loading="lazy" alt="blog img" class="blog-img" data-aos="fade-right">
                        <article class="blog-text">
                            <!-- link to download the lesson  -->
 
@@ -485,7 +485,7 @@
                    <!-- lesson 5  -->
                 <div class="swiper-slide swiper-slide-2">
                     <article class="blog-card" >
-                       <img src="images/lesson-images/resurrection.jpeg" alt="blog img" class="blog-img" data-aos="fade-right">
+                       <img src="images/lesson-images/resurrection.jpeg" loading="lazy" alt="blog img" class="blog-img" data-aos="fade-right">
                        <article class="blog-text">
                            <!-- link to download the lesson  -->
 
@@ -515,14 +515,12 @@
                            </a>
                        </article>
                    </article>
-                   </d
-
-                   iv>
+                   </div>
 
                    <!-- lesson 4  -->
                 <div class="swiper-slide swiper-slide-2">
                     <article class="blog-card" >
-                       <img src="images/lesson-images/first.jpeg" alt="blog img" class="blog-img" data-aos="fade-right">
+                       <img src="images/lesson-images/first.jpeg" loading="lazy" alt="blog img" class="blog-img" data-aos="fade-right">
                        <article class="blog-text">
                            <!-- link to download the lesson  -->
 
@@ -559,7 +557,7 @@
                 <!-- lesson 2  -->
                 <div class="swiper-slide swiper-slide-2">
                     <article class="blog-card" >
-                       <img src="images/lesson-images/journey.jpeg" alt="blog img" class="blog-img" data-aos="fade-right">
+                       <img src="images/lesson-images/journey.jpeg" loading="lazy" alt="blog img" class="blog-img" data-aos="fade-right">
                        <article class="blog-text">
                            <!-- link to download the lesson  -->
 
@@ -594,7 +592,7 @@
                  <!-- lesson 1 3rd quarter -->
                  <div class="swiper-slide swiper-slide-2">
                     <article class="blog-card" >
-                       <img src="images/lesson-images/agents.jpeg" alt="blog img" class="blog-img" data-aos="fade-right">
+                       <img src="images/lesson-images/agents.jpeg" loading="lazy" alt="blog img" class="blog-img" data-aos="fade-right">
                        <article class="blog-text">
                            <!-- link to download the lesson  -->
 
@@ -645,16 +643,20 @@
             <!-- </aside> -->
 
              <!-- Add Pagination -->
+             <div class="swiper-pagination swiper-pagination-2"></div>
+
   </div>
-  <div class="swiper-pagination swiper-pagination-2"></div>
 
             <!-- Initialize Swiper -->
+            <!-- // slide to be centered is the current one  -->
+
             <script>
                 let swiper = new Swiper('.swiper-container-2', {
                 slidesPerView: 'auto',
                 spaceBetween: 20,
-                centeredSlides: false,
-                initialSlide:2,
+                centeredSlides: true,
+
+                initialSlide:6,
                 freeMode: false,
                 pagination: {
                     el: '.swiper-pagination-2',
